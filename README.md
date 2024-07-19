@@ -7,5 +7,7 @@ A simple React application to fetch and display real-time weather information. E
 # Key features:
 
 **Real-time temperature and weather information**
+
 **Error handling for invalid city names**
+
 **Responsive design with Material-UI components**
