@@ -1,8 +1,11 @@
-# React + Vite
+# Weather Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application to fetch and display real-time weather information. Enter a city name to get the current temperature, humidity, weather description, and other relevant details using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+![Weather_app SS](Weather_App.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Key features:
+
+**Real-time temperature and weather information**
+**Error handling for invalid city names**
+**Responsive design with Material-UI components**
