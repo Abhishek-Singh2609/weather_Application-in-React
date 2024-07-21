@@ -34,7 +34,7 @@ export default function InfoBox({info}) {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              {info.city}{info.humidity >80 ? <ThunderstormIcon/> :info.temp >15 ? <WbSunnyIcon/> : <AcUnitIcon/>}
+              {info.city}{info.humidity >80 ? <ThunderstormIcon style={{marginLeft: "0.5rem" }} /> :info.temp >15 ? <WbSunnyIcon style={{marginLeft: "0.5rem" }} /> : <AcUnitIcon style={{marginLeft: "0.5rem" }} />}
             </Typography>
             <Typography
               variant="body2"

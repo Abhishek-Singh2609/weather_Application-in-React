@@ -3,7 +3,7 @@ import InfoBox from './InfoBox'
 import SearchBox from './SearchBox'
 export default function WeatherApp(){
     const[weatherInfo,setWeatherInfo]= useState({
-        city: "Varanasi",
+        city: "Wonderland",
         feelslike: 41.05 ,
         temp: 34.05,
 tempMin: 34.05,

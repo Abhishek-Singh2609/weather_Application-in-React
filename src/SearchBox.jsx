@@ -51,7 +51,7 @@ function SearchBox({updateInfo}) {
 
   return (
     <div className="SearchBox">
-      <form action="" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <TextField
           id="city"
           label="City Name"
